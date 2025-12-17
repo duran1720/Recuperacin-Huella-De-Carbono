@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Huella de Carbono</string>
+
+    <string-array name="tipos_actividad">
+        <item>Transporte</item>
+        <item>Energía</item>
+        <item>Alimentación</item>
+    </string-array>
+</resources>
