@@ -45,7 +45,7 @@ public class ActividadCarbonoDao {
         return lista;
     }
 
-    // 🔥 RESULTADO FINAL
+    //  RESULTADO
     public double obtenerHuellaTotal() {
         double total = 0;
         db = conexion.getReadableDatabase();

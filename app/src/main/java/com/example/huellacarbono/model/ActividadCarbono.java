@@ -30,7 +30,7 @@ public class ActividadCarbono {
         }
     }
 
-    // 🔹 POO: mostrar datos reales en el ListView
+    //  POO
     @Override
     public String toString() {
         return "Actividad: " + tipoActividad +
