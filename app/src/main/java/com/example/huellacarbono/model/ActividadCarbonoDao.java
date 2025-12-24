@@ -24,7 +24,7 @@ public class ActividadCarbonoDao {
         cv.put(Constantes.COL_EMISIONES, a.getEmisionesCO2());
         cv.put(Constantes.COL_FECHA, a.getFecha());
         db.insert(Constantes.TABLA, null, cv);
-        db.close();
+
     }
 
     public ArrayList<ActividadCarbono> listar() {
@@ -41,8 +41,7 @@ public class ActividadCarbonoDao {
             a.setFecha(c.getString(4));
             lista.add(a);
         }
-        c.close();
-        db.close();
+
         return lista;
     }
 
@@ -59,8 +58,7 @@ public class ActividadCarbonoDao {
             total = c.getDouble(0);
         }
 
-        c.close();
-        db.close();
+
         return total;
     }
 }

@@ -3,18 +3,20 @@
     android:gravity="center"
     android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@drawable/background_huella">
     <Button
         android:id="@+id/btnRegistrar"
         android:text="Registrar Actividad"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E7D32"/>
 
     <Button
         android:id="@+id/btnVer"
         android:text="Ver Actividades"
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E7D32"/>
 </LinearLayout>
